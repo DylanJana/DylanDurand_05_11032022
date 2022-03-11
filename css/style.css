@@ -3,6 +3,11 @@
 body {
     font-family: "DM Sans", sans-serif;
     margin: 0;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
 }
 
 
@@ -14,7 +19,7 @@ header {
     height: 90px;
 }
 
-h1 {
+header h1 {
     color: #901C1C;
     margin-right: 100px;
 }
@@ -41,10 +46,57 @@ h1 {
 
 .photographer_section article h2 {
     color: #D3573C;
-    font-size: 36px;
+    font-size: 2em;
 }
 
-.photographer_section article img {
-    height: 200px;
-    width: 200px;
+.photographer_section article h3 {
+    font-size: 0.72em;
+    font-weight: 400;
+}
+
+.photographer_section article .subtitle {
+    font-size: 0.6em;
+}
+
+.img--rounded {
+    height: 11em;
+    width: 11em;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.photographer__link {
+    text-align: center;
+    text-decoration: none;
+}
+/*** Margins ***/
+.mtb-sm {
+    margin: 8px 0;
+}
+
+.mtb-md {
+    margin: 16px 0;
+}
+
+/*** Text size ***/
+.text-sm {
+    font-size: 0.55em;
+}
+
+/*** Text align ***/
+.text--align {
+    text-align: center;
+}
+
+/*** Theme color ***/
+.color-primary {
+    color: #D3573C;
+}
+
+.color-secondary {
+    color: #901C1C;
+}
+
+.color-tiers {
+    color: #757575;
 }

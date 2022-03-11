@@ -6,6 +6,48 @@
     background-color: #FAFAFA;
     height: 300px;
     margin: 0 100px;
+    padding: 36px 72px;
+}
+
+.photograph-header .photograph-header__title {
+    margin: 0;
+}
+
+.row-has--columns {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.column {
+    padding: 0 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content--space-between {
+    justify-content: space-between;
+}
+
+.align-items--center {
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+/*** Font-size ***/
+.title-xxl {
+    font-size: 4em;
+}
+
+.title-md {
+    font-size: 1.33em;
 }
 
 .contact_button {

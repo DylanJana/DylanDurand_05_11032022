@@ -8,13 +8,14 @@
     <title>Fisheye - photographe </title>
   </head>
   <body>
-    <header>
-      <img src="assets/images/logo.png" class="logo" />
+    <header role="header">
+      <a href="index.html">
+        <img src="assets/images/logo.png" class="logo" alt="Fisheye Home page" role="Image link" />
+      </a>
     </header>
-    <main id="main">
-      <div class="photograph-header">
-        <button class="contact_button" onclick="displayModal()">Contactez-moi</button>
-      </div>
+    <main id="main" role="main">
+      <section class="photograph-header d-flex align-items--center flex-wrap">
+      </section>
     </main>
     <div id="contact_modal">
 			<div class="modal">
@@ -31,6 +32,10 @@
 				</form>
 			</div>
 		</div>
+    <!-- Api -->
+    <script src="/scripts/Api/Api.js"></script>
+    <script src="/scripts/models/photograph.js"></script>
+    <script src="scripts/pages/photographer.js"></script>
     <script src="/scripts/utils/contactForm.js"></script>
   </body>
 </html>
